@@ -21,6 +21,7 @@ As "chaves" de criptografia que utilizaremos são:
 **A letra "u" é convertida para "ufat"**
 
 **Requisitos:**
+
 - Deve funcionar apenas com letras minúsculas
 - Não devem ser utilizados letras com acentos nem caracteres especiais
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
@@ -33,13 +34,23 @@ gaitober" => "gato"
 
 A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
 O resultado deve ser exibido na tela.
-____
+
+---
 
 ### GitHub Pages - acesse: [Decodificador de Texto](https://tiagomerc.github.io/Challenge-Oracle-ONE-Iniciante-em-Programa-o/)
 
 ### Backlog:
 
-  - 14/04/2022: Iniciando a montagem dos elementos da página
-#### Print:
+- 14/04/2022: Iniciando a montagem dos elementos da página
 
-![Print 14/04/2022](/imgs/print.png)  
+- 16/04/202: Utilizando o Figma para coletar informações do projeto/protótipo
+
+#### Prints:
+
+- Print 14/04/2022
+
+![Print 14/04/2022](/imgs/prints/print.png)
+
+- Print 16/04/2022
+
+![Print 16/04/2022](/imgs/prints/print1.png)
