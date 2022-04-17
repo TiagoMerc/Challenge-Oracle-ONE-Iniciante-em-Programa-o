@@ -43,14 +43,20 @@ O resultado deve ser exibido na tela.
 
 - 14/04/2022: Iniciando a montagem dos elementos da página
 
-- 16/04/202: Utilizando o Figma para coletar informações do projeto/protótipo
+- 16/04/2022: Utilizando o Figma para coletar informações do projeto/protótipo
+
+- 17/04/2022: Utilizando o Figma para coletar informações do projeto/protótipo e posicionando os elementos
 
 #### Prints:
 
 - Print 14/04/2022
 
 ![Print 14/04/2022](/imgs/prints/print.png)
-
+____
 - Print 16/04/2022
 
 ![Print 16/04/2022](/imgs/prints/print1.png)
+
+- Print 17/04/2022
+
+![Print 17/04/2022](/imgs/prints/print2.png)

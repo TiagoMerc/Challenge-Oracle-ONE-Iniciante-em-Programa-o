@@ -1,0 +1,42 @@
+body {
+  background-color: #E5E5E5;
+}
+
+#logo { /* # para identificador*/
+ width: 120px;
+ height: 48px;
+  margin: 24px;
+ margin-left: 40px;
+ margin-top: 40px;
+}
+
+#text {
+  width: 680px;
+  height: 240px;
+  margin-top: 168px;
+  margin-left: 240px;
+  position:relative; 
+}
+
+#result {
+
+  width: 400px;
+  height: 944px;
+  margin-left: 1000px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  border-radius: 32px;
+
+  background-color: white;
+  padding-left: 100px;
+  padding-top: 40px;
+
+
+}
+#crip {
+  background-color: #0A3871;
+  border-radius: 12px;
+  border-style: 32px 67px;
+  text-decoration: white;
+}

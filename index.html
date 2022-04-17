@@ -5,48 +5,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Alura Challenge - Oracle ONE - Decodificador de Texto</title>
   </head>
   <nav>
-    <img
-      href="https://www.alura.com.br/"
-      target="_blanck"
-      src="/imgs/Vector.png"
-      alt="Logo da Alura"
-    />
+    <div id="logo"> 
+    <a  target="_blanck" href="https://www.alura.com.br/">
+      <img src="/imgs/Vector.png"
+      alt="Logo da Alura"  />
+    </a>
+  </div>
   </nav>
-  <h1>Alura Challenge - Oracle ONE - Decodificador de Texto</h1>
-
+  <div  id="text">
   <main>
-    <h2>Textos</h2>
-
-    <p>
-      campo para o texto que vai ser criptografado/descriptografado <br /><br />
-      <input type="text" digite seu />
+   
+  
+      <textarea name="Texto" id="" cols="80" rows="10" placeholder="Digite seu texto"></textarea>
 
       <br />
-      botões para fazer a criptografia/descriptografia
-    </p>
+   
+ 
 
-    <div>
+ 
       <p>Apenas letra minúsculas e sem acento.</p>
-    </div>
-    <button disabled="disabled">Criptografar</button>
-
+      
+    <button id="crip" disabled="disabled">Criptografar</button>
+  
     <button disabled="disabled">Descriptografar</button>
   </main>
+</div>
 
-  <h2>Resultado</h2>
-
-  <p>área para exibir o texto resultante.</p>
-
+<div id="result">
+ 
   <img
     src="/imgs/High quality products 1 1.svg"
     alt="Informativo de nehuma mensagem encontrada"
   />
 
-  <button type="submit">Copiar</button>
+  <h2>Nenhuma mensagem encontrada</h2>
 
+  <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+  <button type="submit">Copiar</button>
+</div>
   <hr />
   <!--Rodapé-->
   <footer>Rodapé</footer>
