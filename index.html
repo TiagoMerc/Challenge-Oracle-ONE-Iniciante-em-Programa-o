@@ -20,24 +20,21 @@
   <main>
    
   
-      <textarea name="Texto" id="" cols="80" rows="10" placeholder="Digite seu texto"></textarea>
+      <textarea name="Texto" id="" cols="80" rows="50" placeholder="Digite seu texto"></textarea>
 
       <br />
-   
- 
-
- 
+     
       <p>Apenas letra minúsculas e sem acento.</p>
-      
-    <button id="crip" disabled="disabled">Criptografar</button>
-  
+    <div class="crip">  
+    <button  disabled="disabled">Criptografar</button>
+   </div>
     <button disabled="disabled">Descriptografar</button>
   </main>
 </div>
 
 <div id="result">
  
-  <img
+  <img id="img1"
     src="/imgs/High quality products 1 1.svg"
     alt="Informativo de nehuma mensagem encontrada"
   />
@@ -45,8 +42,9 @@
   <h2>Nenhuma mensagem encontrada</h2>
 
   <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-
+ <div id="copy">
   <button type="submit">Copiar</button>
+</div>
 </div>
   <hr />
   <!--Rodapé-->
