@@ -23,6 +23,9 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 25/04/2022: Posicionando a caixa de texto e a caixa de resposta 
 
+- 26/04/2022: Organizando os elementos na página e estilizando os mesmos 
+
+
 
 #### Prints:
 
@@ -41,3 +44,8 @@ ____
 - Print 25/04/2022
 
 ![Print 25/04/2022](/imgs/prints/print3.png)
+
+
+- Print 26/04/2022
+
+![Print 25/04/2022](/imgs/prints/print4.png)

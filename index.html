@@ -8,47 +8,58 @@
     <link rel="stylesheet" href="style.css">
     <title>Alura Challenge - Oracle ONE - Decodificador de Texto</title>
   </head>
+  <!--Imagem de logo -->
   <nav>
     <div id="logo"> 
     <a  target="_blanck" href="https://www.alura.com.br/">
-      <img src="/imgs/Vector.png"
+      <img src="imgs/Vector.png"
       alt="Logo da Alura"  />
     </a>
   </div>
   </nav>
+  <!--Fim da imagem de logo-->
+
+  <!-- Entrada dos textos -->
+
   <div  id="text">
   <main>
    
-  
-      <textarea name="Texto" id="" cols="80" rows="50" placeholder="Digite seu texto"></textarea>
+      <textarea name="Texto" class="textarea is-info" id="" cols="34" rows="22" placeholder="Digite seu texto"></textarea>
 
       <br />
      
-      <p>Apenas letra minúsculas e sem acento.</p>
-    <div class="crip">  
-    <button  disabled="disabled">Criptografar</button>
-   </div>
-    <button disabled="disabled">Descriptografar</button>
+      <p id="parag">Apenas letra minúsculas e sem acento.</p>
+
+    <button class="crip" disabled="disabled">Criptografar</button>
+
+    <button class="descrip" disabled="disabled">Descriptografar</button>
   </main>
 </div>
+
+  <!-- Fim da entrada dos textos -->
+
+  <!-- Saida dos textos -->
 
 <div id="result">
  
   <img id="img1"
-    src="/imgs/High quality products 1 1.svg"
+    src="imgs/High quality products 1 1.svg"
     alt="Informativo de nehuma mensagem encontrada"
   />
 
   <h2>Nenhuma mensagem encontrada</h2>
 
   <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
- <div id="copy">
-  <button type="submit">Copiar</button>
+ 
+  <button id="copy" type="submit">Copiar</button>
 </div>
 </div>
-  <hr />
+  <!-- Fim da saida dos textos -->
+
+    <!-- Rodape / Referencias -->
   <!--Rodapé-->
-  <footer>Rodapé</footer>
+  <div class="ref">
+  <footer>
   <strong>Pessoa que desenvolveu:</strong>
   Tiago Mercês Rosário
   <br />
@@ -57,5 +68,10 @@
     target="_blanck"
     href="https://www.linkedin.com/in/tiago-merc%C3%AAs-ros%C3%A1rio-b6177b85"
     >LinkedIn</a
-  >
+  > <br>
+  <a target="_blanck" href="https://github.com/TiagoMerc">GitHub</a>
+</footer>
+  </div>
+   <!-- Fim do rodape / Referencias -->
+
 </html>

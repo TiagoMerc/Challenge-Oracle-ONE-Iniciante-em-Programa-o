@@ -14,7 +14,7 @@ body {
   width: 680px;
   height: 240px;
   margin-top: 20px;
-  margin-left: 240px;
+  margin-left: 600px;
   float: left;
   
 }
@@ -22,7 +22,7 @@ body {
 #result {
   width: 400px;
   height: 944px;
-  margin-left: 1000px;
+  margin-left: 1400px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 40px;
@@ -36,19 +36,94 @@ body {
 
 .crip {
   background-color: #0A3871;
-  border-radius: 12px;
+  border-radius: 24px;
   border-style: 32px 67px;
-  text-decoration: white;
   float: left;
+  font-size: 16px;
+  width: 328px;
+  height: 67px;
+  color: white;
+  border-color: #0A3871;
 } 
 
+textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atributo*/
+
+  font-size: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkblue;
+  
+  
+}
+
+.descrip {
+  background-color: #D8DFE8;
+  border-radius: 24px;
+  border-style: 32px 67px;
+  margin-left: 24px;
+  float: left;
+  font-size: 16px;
+  width: 328px;
+  height: 67px;
+  color:#0A3871;
+  border-color: #0A3871;
+}
+
 #copy {
- margin-top: 200px;
- margin: 400px;
+ margin-top: 80px;
+ margin: 246px;
  margin-left: 130px;
  position: center;
+ border-radius: 24px;
+ border-style: 32px 67px;
+ margin-left: 24px;
+ float: left;
+ font-size: 16px;
+ width: 279px;
+ height: 67px;
+ background-color: white;
+ border-color: #0A3871;
 }
 
 #img1 {
   margin-top: 90px;
+}
+
+.textarea is-info {
+  background-color: white;
+  border-color: blue;
+  
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-right: 68px;
+}
+
+p {
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  margin-right: 68px;
+  margin-top: 24px;
+}
+
+#parag {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 36px;
+
+
+}
+
+.ref {
+  font-size: 24px;
+  margin-top: 24px;
+  float: initial;
+  position: absolute;
+
+border-style:groove;
+padding: 2%;
+padding-right: 1650px;
+background-color:white;
 }
