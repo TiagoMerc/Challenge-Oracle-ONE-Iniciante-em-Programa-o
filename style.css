@@ -11,10 +11,10 @@ body {
 }
 
 #text {
-  width: 680px;
+  width: 400px;
   height: 240px;
   margin-top: 20px;
-  margin-left: 600px;
+  margin-left: 300px;
   float: left;
   
 }
@@ -22,7 +22,7 @@ body {
 #result {
   width: 400px;
   height: 944px;
-  margin-left: 1400px;
+  margin-left: 1044px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 40px;
@@ -59,7 +59,8 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
   background-color: #D8DFE8;
   border-radius: 24px;
   border-style: 32px 67px;
-  margin-left: 24px;
+  margin-left: 342px;
+  margin-top: -66px;
   float: left;
   font-size: 16px;
   width: 328px;
@@ -69,8 +70,8 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
 }
 
 #copy {
- margin-top: 80px;
- margin: 246px;
+ margin-top: 340px;
+ margin: 272px;
  margin-left: 130px;
  position: center;
  border-radius: 24px;
@@ -117,13 +118,16 @@ p {
 }
 
 .ref {
-  font-size: 24px;
-  margin-top: 24px;
-  float: initial;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 100px;
   position: absolute;
+  float: initial;
+  border-style:groove;
+  
+  margin-left: -5px;
+  padding: 1%;
 
-border-style:groove;
-padding: 2%;
-padding-right: 1650px;
-background-color:white;
+  padding-right: 1590px;
+  background-color: white;
 }
