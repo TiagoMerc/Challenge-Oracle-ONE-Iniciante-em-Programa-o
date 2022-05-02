@@ -44,6 +44,8 @@ body {
   height: 67px;
   color: white;
   border-color: #0A3871;
+  font-weight: bold;
+
 } 
 
 textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atributo*/
@@ -67,6 +69,7 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
   height: 67px;
   color:#0A3871;
   border-color: #0A3871;
+  font-weight: bold;
 }
 
 #copy {
@@ -112,8 +115,8 @@ p {
 #parag {
   font-size: 16px;
   text-align: left;
-  margin-left: 36px;
-
+  margin-left: 32px;
+  margin-top: -28px;
 
 }
 
@@ -130,4 +133,11 @@ p {
 
   padding-right: 1590px;
   background-color: white;
+}
+
+#infor {
+
+  width: 32px;
+  height: 32px;
+  padding: 0%;
 }

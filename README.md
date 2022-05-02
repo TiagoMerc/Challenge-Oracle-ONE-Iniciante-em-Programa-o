@@ -27,6 +27,8 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 27/04/2022: Organanizei o tamanho dos elementos na página e as referências
 
+- 02/05/2022: Inserindo a imagem de informações 
+
 #### Prints:
 
 - Print 14/04/2022
@@ -53,4 +55,8 @@ ____
 
 ![Print 27/04/2022](/imgs/prints/print5.png)
 ![Print 27/04/2022](/imgs/prints/print5.1.png)
+
+- Print 02/05/2022
+
+![Print 02/05/2022](/imgs/prints/print6.png)
 
