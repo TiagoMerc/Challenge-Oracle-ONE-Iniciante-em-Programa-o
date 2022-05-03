@@ -29,6 +29,9 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 02/05/2022: Inserindo a imagem de informações 
 
+- 03/05/2022: Estilizando a página, organizando os arquivos no projeto e iniciando a inclusão do JavaScript na página
+
+
 #### Prints:
 
 - Print 14/04/2022
@@ -60,3 +63,6 @@ ____
 
 ![Print 02/05/2022](/imgs/prints/print6.png)
 
+- Print 03/05/2022
+
+![Print 03/05/2022](/imgs/prints/print7.png)

@@ -5,9 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Alura Challenge - Oracle ONE - Decodificador de Texto</title>
   </head>
+
+  <body>
+    
+ 
   <!--Imagem de logo -->
   <nav>
     <div id="logo"> 
@@ -22,18 +26,15 @@
   <!-- Entrada dos textos -->
 
   <div  id="text">
-  <main>
    
-      <textarea name="Texto" class="textarea is-info" id="" cols="34" rows="22" placeholder="Digite seu texto"></textarea>
+      <textarea name="Texto" class="textarea is-info" id="text" cols="64" rows="22" autofocus placeholder="Digite seu texto"></textarea>
 
-      <br />
      <img id="infor" src="imgs/info-fill.png" alt="">
       <p id="parag">Apenas letra minúsculas e sem acento.</p>
 
-    <button class="crip" disabled="disabled">Criptografar</button>
+    <button class="crip">Criptografar</button>
 
     <button class="descrip" disabled="disabled">Descriptografar</button>
-  </main>
 </div>
 
   <!-- Fim da entrada dos textos -->
@@ -47,7 +48,7 @@
     alt="Informativo de nehuma mensagem encontrada"
   /> <!--Se tiver a barra (/) o GitHub pages não mostra as imagens. ocorre erro de rota-->
 
-  <h2>Nenhuma mensagem encontrada</h2>
+  <h2 class="saida" >Nenhuma mensagem encontrada</h2>
 
   <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
  
@@ -74,4 +75,8 @@
   </div>
    <!-- Fim do rodape / Referencias -->
 
+
+   <!-- Script JavaScript-->
+   <script src="JS/script.js"></script>
+  </body>
 </html>
