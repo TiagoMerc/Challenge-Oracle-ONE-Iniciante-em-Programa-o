@@ -31,6 +31,7 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 03/05/2022: Estilizando a página, organizando os arquivos no projeto e iniciando a inclusão do JavaScript na página
 
+- 05/05/2022: Finalizando a função criptografar e testando
 
 #### Prints:
 
@@ -66,3 +67,7 @@ ____
 - Print 03/05/2022
 
 ![Print 03/05/2022](/imgs/prints/print7.png)
+
+- Print 05/05/2022
+
+![Print 05/05/2022](/imgs/prints/print8.png)

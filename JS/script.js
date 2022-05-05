@@ -13,7 +13,11 @@ function criptografar() {
 
     // As "chaves" de criptografia que utilizaremos são:
      descripText = input.value.replace(/e/, "enter"); //`A letra "e" é convertida para "enter"`
-      descripText = descripText.replace(/i/g, "imes"); //`A letra "i" é convertida para "imes"`
+     descripText = descripText.replace(/i/g, "imes"); //`A letra "i" é convertida para "imes"`
+     descripText = descripText.replace(/a/g, "ai"); // `A letra "a" é convertida para "ai"`
+     descripText = descripText.replace(/o/g, "ober"); //`A letra "o" é convertida para "ober"`
+     descripText = descripText.replace(/u/g, "ufat"); //`A letra "u" é convertida para "ufat"`
+
 
      result.textContent = descripText; //mostrar o resultado do input
      input.value = "";
