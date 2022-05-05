@@ -19,26 +19,31 @@ function criptografar() {
      cripText = cripText.replace(/o/g, "ober"); //`A letra "o" é convertida para "ober"`
      cripText = cripText.replace(/u/g, "ufat"); //`A letra "u" é convertida para "ufat"`
 
-
      result.textContent = cripText; //mostrar o resultado do input
      input.value = "";
+     result.img1="none";
   }
 }
 
 //Função para descriptografar
+/*Por exemplo:
+`"gato" => "gaitober"`
+`gaitober" => "gato"`
+*/
 function descriptografar() {
   if(input.value !="") {
-    cripText = input.value.replace(/enter/g, "e");
-    cripText = cripText.replace(/imes/g, "i");
-    cripText = cripText.replace(/ai/g, "a");
-    cripText = cripText.replace(/ober/g, "o");
-    cripText = cripText.replace(/ufat/g, "u");
+    cripText = input.value.replace(/enter/g, "e"); //`A palavra "enter" é convertida para "e"`
+    cripText = cripText.replace(/imes/g, "i"); //`A palavra "imes" é convertida para "i"`
+    cripText = cripText.replace(/ai/g, "a"); //`A palavra "ai" é convertida para "a"`
+    cripText = cripText.replace(/ober/g, "o"); //`A palavra "ober" é convertida para "o"`
+    cripText = cripText.replace(/ufat/g, "u"); //`A palavra "ufat" é convertida para "u"`
     
     result.textContent = cripText;
     input.value = "";  
   }
 }
 
+//Eventos conforme o usuário clique nos botões na tela
 cript.addEventListener("click", criptografar); // depois do usuário digitar no textarea e clicar no botão "criptografar", vai aparecer o reusltado
 
 descript.addEventListener("click", descriptografar);
