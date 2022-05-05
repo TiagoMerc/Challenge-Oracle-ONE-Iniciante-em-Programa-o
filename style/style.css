@@ -16,9 +16,7 @@ body {
 
 #text {
   width: 400px;
-  height: 850px;
-
-
+  height: 800px;
   float: left;
   margin-left: 164px; 
 }
@@ -31,11 +29,9 @@ body {
   margin-bottom: 40px;
   margin-right: 40px;
   border-radius: 32px;
-
   background-color: white;
   padding-left: 100px;
   padding-top: 40px;
-
 }
 
 .crip {
@@ -49,16 +45,12 @@ body {
   color: white;
   border-color: #0A3871;
   font-weight: bold;
-
 } 
 
 textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atributo*/
-
   font-size: 32px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', sans-serif;
   color: darkblue;
-
-  
 }
 
 .descrip {
@@ -77,8 +69,7 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
 }
 
 #copy {
- margin-top: 340px;
- margin: 272px;
+ margin: 222px;
  margin-left: 130px;
  position: center;
  border-radius: 24px;
@@ -99,7 +90,6 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
 .textarea is-info {
   background-color: white;
   border-color: blue;
-  
 }
 
 h2 {
@@ -131,16 +121,12 @@ p {
   position: absolute;
   float: initial;
   border-style:groove;
-  
   margin-left: -5px;
-  padding: 1%;
-
   padding-right: 1590px;
   background-color: white;
 }
 
 #infor {
-
   width: 32px;
   height: 32px;
   padding: 0%;
@@ -151,6 +137,4 @@ textarea {
   border: none;
   background-color: transparent;
   outline: none;
-
-
 }

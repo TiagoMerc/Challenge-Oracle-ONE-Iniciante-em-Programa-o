@@ -33,6 +33,8 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 05/05/2022: Finalizando a função criptografar e testando
 
+- 05/05/2022: Conclusão da função descriptografar 
+
 #### Prints:
 
 - Print 14/04/2022
