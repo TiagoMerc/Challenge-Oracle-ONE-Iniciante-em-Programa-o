@@ -123,7 +123,7 @@ p {
   float: initial;
   border-style:groove;
   margin-left: -5px;
-  padding-right: 1590px;
+  padding-right: 712px;
   background-color: white;
 }
 
@@ -139,4 +139,23 @@ textarea {
   border: none;
   background-color: transparent;
   outline: none;
+}
+
+ul {
+  padding-left: 144px;
+  padding-right: 124px;
+  list-style: none; /**tirar as bolinhas **/
+  display: flex;
+  gap: 1.45rem;/** Espaço entre os icones**/ 
+
+}
+
+.image-footer {
+  width: 24px;
+}
+
+footer {
+  margin-top: 12px;
+  margin-left: 750px;
+  text-align: center;
 }

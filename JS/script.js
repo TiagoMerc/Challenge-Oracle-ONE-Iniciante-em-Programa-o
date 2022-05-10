@@ -50,7 +50,7 @@ function descriptografar() {
 //Função para copiar o resultado da criptografia
 function copiarResultado(){
   navigator.clipboard.writeText(result.textContent)
-  alert("Texto copiado"); //Alerta quando o usuaário clicar no botão "Copiar"
+  alert("Mensagem copiada!"); //Alerta quando o usuaário clicar no botão "Copiar"
   document.location.reload(true); // Recarrega a página atual sem usar o cache
 }
 

@@ -37,6 +37,8 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 10/05/2022: Conclusão do botão copiar e a inserção de um alert para informar que o texto foi copiado para a área de transferência
 
+- 10/05/2022: Estilizando o rodapé (footer) e conclusão do sprint/challenge
+
 #### Prints:
 
 - Print 14/04/2022
@@ -79,3 +81,7 @@ ____
 - Print 10/05/2022
 
 ![Print 10/05/2022](/imgs/prints/print9.png)
+
+- Print 10/05/2022
+
+![Print 10/05/2022](/imgs/prints/print10.png)
