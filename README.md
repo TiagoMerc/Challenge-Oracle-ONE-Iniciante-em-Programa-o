@@ -39,7 +39,7 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 10/05/2022: Estilizando o rodapé (footer) e conclusão do sprint/challenge
 
-**- 10/05/2022: Conclusão do sprint/challenge**
+**10/05/2022: Conclusão do sprint/challenge**
 
 #### Prints:
 
