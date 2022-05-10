@@ -39,6 +39,8 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 10/05/2022: Estilizando o rodapé (footer) e conclusão do sprint/challenge
 
+**- 10/05/2022: Conclusão do sprint/challenge**
+
 #### Prints:
 
 - Print 14/04/2022
@@ -85,3 +87,8 @@ ____
 - Print 10/05/2022
 
 ![Print 10/05/2022](/imgs/prints/print10.png)
+
+
+- Print 10/05/2022 - Mensagem secreta que estava no Trello
+
+![Print 10/05/2022](/imgs/prints/print11.png)

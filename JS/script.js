@@ -51,7 +51,7 @@ function descriptografar() {
 function copiarResultado(){
   navigator.clipboard.writeText(result.textContent)
   alert("Mensagem copiada!"); //Alerta quando o usuaário clicar no botão "Copiar"
-  document.location.reload(true); // Recarrega a página atual sem usar o cache
+ //document.location.reload(true); // Recarrega a página atual sem usar o cache
 }
 
 
