@@ -68,7 +68,7 @@ textarea[placeholder="Digite seu texto"] { /*Seletores CSS - Seleção por atrib
   font-weight: bold;
 }
 
-#copy {
+.copy {
  margin: 222px;
  margin-left: 130px;
  position: center;
@@ -115,6 +115,7 @@ p {
 }
 
 .ref {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
   font-size: 18px;
   margin-top: 100px;
@@ -125,6 +126,7 @@ p {
   padding-right: 1590px;
   background-color: white;
 }
+
 
 #infor {
   width: 32px;

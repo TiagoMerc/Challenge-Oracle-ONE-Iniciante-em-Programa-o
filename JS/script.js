@@ -2,12 +2,13 @@
 const input = document.querySelector("textarea");
 const result = document.querySelector(".saida"); //pega a class que eu criei "saida" que é onde vai sair o resultado da regra de criptografia conforme o que o usuário digitou
 //const inverso = document.querySelector(".saida");
-
 const cript = document.querySelector(".crip"); //Variável para ação no botão "Criptografar" quando o usuário clicar
-const descript = document.querySelector(".descrip");
+const descript = document.querySelector(".descrip"); //variável para ação no botão "Descriptografar" quando o usuário clicar
+const copiar = document.querySelector(".copy"); //Variável para ação no botão "Copiar" quando o usuário clicar
 
-let cripText; 
-//let descripText
+
+let cripText; //Variável para receber as regras de criptografia
+
 //Função para criptografar
 function criptografar() {
   if(input.value !="") {
@@ -20,6 +21,7 @@ function criptografar() {
      cripText = cripText.replace(/u/g, "ufat"); //`A letra "u" é convertida para "ufat"`
 
      result.textContent = cripText; //mostrar o resultado do input
+     copiar.classList.add("showbutton"); //copiar o resultado 
      input.value = "";
      result.img1="none";
   }
@@ -39,11 +41,24 @@ function descriptografar() {
     cripText = cripText.replace(/ufat/g, "u"); //`A palavra "ufat" é convertida para "u"`
     
     result.textContent = cripText;
+    copiar.classList.add("showbutton"); //copiar o resultado 
     input.value = "";  
-  }
+
+  }  
 }
 
-//Eventos conforme o usuário clique nos botões na tela
-cript.addEventListener("click", criptografar); // depois do usuário digitar no textarea e clicar no botão "criptografar", vai aparecer o reusltado
+//Função para copiar o resultado da criptografia
+function copiarResultado(){
+  navigator.clipboard.writeText(result.textContent)
+  alert("Texto copiado"); //Alerta quando o usuaário clicar no botão "Copiar"
+  document.location.reload(true); // Recarrega a página atual sem usar o cache
+}
 
-descript.addEventListener("click", descriptografar);
+
+//Eventos conforme o usuário clique nos botões na tela
+cript.addEventListener("click", criptografar); // depois do usuário digitar no textarea e clicar no botão "criptografar", vai aparecer o resultado
+
+descript.addEventListener("click", descriptografar); // depois do usuário copiar o resultado da criptografia, ele coloca o resultado no textarea e clica no botão "descriptografar", vai aparecer o resultado da descriptografia. Dessa forma, o usuário vai desconbrir a mensagem secreta
+
+//Botão copiar
+copiar.addEventListener("click", copiarResultado); // Copiar para a área de tranferência o reusltado da criptografia ou descriptografia para que o usuário consiga saber a mensagem criptografada

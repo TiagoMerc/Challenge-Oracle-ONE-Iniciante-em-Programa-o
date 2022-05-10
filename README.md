@@ -35,6 +35,8 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 
 - 05/05/2022: Conclusão da função descriptografar 
 
+- 10/05/2022: Conclusão do botão copiar e a inserção de um alert para informar que o texto foi copiado para a área de transferência
+
 #### Prints:
 
 - Print 14/04/2022
@@ -73,3 +75,7 @@ ____
 - Print 05/05/2022
 
 ![Print 05/05/2022](/imgs/prints/print8.png)
+
+- Print 10/05/2022
+
+![Print 10/05/2022](/imgs/prints/print9.png)
